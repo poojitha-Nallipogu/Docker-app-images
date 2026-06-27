@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:
+    linear-gradient(135deg,#1f2937,#2563eb,#0f172a);
+}
+
+.hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.glass{
+
+    width:420px;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    backdrop-filter:blur(15px);
+
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.2);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+
+    text-align:center;
+
+    color:white;
+}
+
+.glass h1{
+    margin-bottom:10px;
+    font-size:34px;
+}
+
+.glass p{
+    margin-bottom:30px;
+    opacity:.85;
+}
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin:12px 0;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-top:10px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#38bdf8;
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+    background:#0ea5e9;
+
+}
+
+.view-btn{
+
+    display:block;
+
+    margin-top:25px;
+
+    text-decoration:none;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+.page{
+
+    padding:50px;
+
+}
+
+.container{
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    color:white;
+
+    margin-bottom:30px;
+
+}
+
+.top a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    overflow:hidden;
+
+    border-radius:15px;
+
+    background:white;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.3);
+
+}
+
+thead{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+th,td{
+
+    padding:18px;
+
+    text-align:center;
+
+}
+
+tbody tr:nth-child(even){
+
+    background:#f5f5f5;
+
+}
+
+tbody tr:hover{
+
+    background:#dbeafe;
+
+    transition:.2s;
+
+}

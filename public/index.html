@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+
+    <div class="glass">
+
+        <h1>🎓 Grade Submission Portal</h1>
+
+        <p>
+            Submit student grades securely.
+        </p>
+
+        <form id="gradeForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Student Name"
+                required
+            >
+
+            <input
+                type="number"
+                id="marks"
+                placeholder="Marks"
+                min="0"
+                max="100"
+                required
+            >
+
+            <button type="submit">
+                Submit Grade
+            </button>
+
+        </form>
+
+        <a class="view-btn" href="/students">
+            View Students →
+        </a>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
